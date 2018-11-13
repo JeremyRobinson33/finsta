@@ -3,25 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3831769C8049C820FFD8E1B2 /* Pods_Fakestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B323D9588DB223596C02AF /* Pods_Fakestagram.framework */; };
+		3F20BFB72190C942007CAADA /* PostImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F20BFB62190C942007CAADA /* PostImageCell.swift */; };
+		3F22EA5B21966C21003994A2 /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22EA5A21966C21003994A2 /* PostHeaderCell.swift */; };
+		3F42429F2196701200F61B7E /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42429E2196701200F61B7E /* PostActionCell.swift */; };
+		3FA0899E2181631800D7815A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0899D2181631800D7815A /* LoginViewController.swift */; };
+		3FA089A021826C6700D7815A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA0899F21826C6700D7815A /* User.swift */; };
+		3FA089A2218276F400D7815A /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA089A1218276F400D7815A /* CreateUsernameViewController.swift */; };
+		3FA089A42185341200D7815A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA089A32185341200D7815A /* UserService.swift */; };
+		3FC5F8BE217FEA72005CC1B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5F8BD217FEA72005CC1B2 /* GoogleService-Info.plist */; };
+		3FC5F8C9217FEEDB005CC1B2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC5F8C8217FEEDB005CC1B2 /* Login.storyboard */; };
+		3FE52B47218B94FA00767866 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B46218B94FA00767866 /* Constants.swift */; };
+		3FE52B49218B95E200767866 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B48218B95E200767866 /* Storyboard+Utility.swift */; };
+		3FE52B4B218BA31500767866 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B4A218BA31500767866 /* HomeViewController.swift */; };
+		3FE52B4D218BA33200767866 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B4C218BA33200767866 /* FindFriendsViewController.swift */; };
+		3FE52B4F218BA96100767866 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B4E218BA96100767866 /* MainTabBarController.swift */; };
+		3FE52B51218BACF400767866 /* FGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B50218BACF400767866 /* FGPhotoHelper.swift */; };
+		3FE52B55218BC69E00767866 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B54218BC69E00767866 /* PostService.swift */; };
+		3FE52B57218BC76E00767866 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B56218BC76E00767866 /* StorageService.swift */; };
+		3FE52B59218BEE1D00767866 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B58218BEE1D00767866 /* Post.swift */; };
+		3FE52B5B218BF1B900767866 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B5A218BF1B900767866 /* UIImage+Size.swift */; };
+		3FE52B5D218BF33200767866 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE52B5C218BF33200767866 /* StorageReference+Post.swift */; };
+		3FE52B5F218BF95800767866 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE52B5E218BF95800767866 /* Home.storyboard */; };
 		3FE87053217FE48500AE63FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE87052217FE48500AE63FE /* AppDelegate.swift */; };
-		3FE87055217FE48500AE63FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE87054217FE48500AE63FE /* ViewController.swift */; };
 		3FE87058217FE48500AE63FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE87056217FE48500AE63FE /* Main.storyboard */; };
 		3FE8705A217FE48700AE63FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE87059217FE48700AE63FE /* Assets.xcassets */; };
 		3FE8705D217FE48700AE63FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE8705B217FE48700AE63FE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31270FF1FAE326571C712E69 /* Pods-Fakestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fakestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fakestagram/Pods-Fakestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		35B323D9588DB223596C02AF /* Pods_Fakestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fakestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F20BFB62190C942007CAADA /* PostImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageCell.swift; sourceTree = "<group>"; };
+		3F22EA5A21966C21003994A2 /* PostHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderCell.swift; sourceTree = "<group>"; };
+		3F42429E2196701200F61B7E /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
+		3FA0899D2181631800D7815A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FA0899F21826C6700D7815A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3FA089A1218276F400D7815A /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		3FA089A32185341200D7815A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		3FC5F8BD217FEA72005CC1B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3FC5F8C8217FEEDB005CC1B2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		3FE52B46218B94FA00767866 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3FE52B48218B95E200767866 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
+		3FE52B4A218BA31500767866 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3FE52B4C218BA33200767866 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
+		3FE52B4E218BA96100767866 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		3FE52B50218BACF400767866 /* FGPhotoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGPhotoHelper.swift; sourceTree = "<group>"; };
+		3FE52B54218BC69E00767866 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		3FE52B56218BC76E00767866 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		3FE52B58218BEE1D00767866 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3FE52B5A218BF1B900767866 /* UIImage+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Size.swift"; sourceTree = "<group>"; };
+		3FE52B5C218BF33200767866 /* StorageReference+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StorageReference+Post.swift"; sourceTree = "<group>"; };
+		3FE52B5E218BF95800767866 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		3FE8704F217FE48500AE63FE /* Fakestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE87052217FE48500AE63FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FE87054217FE48500AE63FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3FE87057217FE48500AE63FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FE87059217FE48700AE63FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FE8705C217FE48700AE63FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FE8705E217FE48700AE63FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF245D4EC38E05E0D9415B5 /* Pods-Fakestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fakestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fakestagram/Pods-Fakestagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +73,117 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3831769C8049C820FFD8E1B2 /* Pods_Fakestagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0ED13F1B5F1B43EA13C3040C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31270FF1FAE326571C712E69 /* Pods-Fakestagram.debug.xcconfig */,
+				8DF245D4EC38E05E0D9415B5 /* Pods-Fakestagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		105F61886F476CA2A3A2939C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35B323D9588DB223596C02AF /* Pods_Fakestagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC5F8BF217FEB76005CC1B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FE52B4E218BA96100767866 /* MainTabBarController.swift */,
+				3FE52B4A218BA31500767866 /* HomeViewController.swift */,
+				3FE52B4C218BA33200767866 /* FindFriendsViewController.swift */,
+				3FA089A1218276F400D7815A /* CreateUsernameViewController.swift */,
+				3FA0899D2181631800D7815A /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3FC5F8C0217FEBA0005CC1B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3FE52B5A218BF1B900767866 /* UIImage+Size.swift */,
+				3FE52B5C218BF33200767866 /* StorageReference+Post.swift */,
+				3FE52B48218B95E200767866 /* Storyboard+Utility.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3FC5F8C1217FEBA8005CC1B2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3FE52B50218BACF400767866 /* FGPhotoHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3FC5F8C2217FEBB8005CC1B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3FE52B58218BEE1D00767866 /* Post.swift */,
+				3FA0899F21826C6700D7815A /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3FC5F8C3217FEBC4005CC1B2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3FE52B54218BC69E00767866 /* PostService.swift */,
+				3FE52B56218BC76E00767866 /* StorageService.swift */,
+				3FA089A32185341200D7815A /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3FC5F8C4217FEBFE005CC1B2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3FE52B5E218BF95800767866 /* Home.storyboard */,
+				3FE87056217FE48500AE63FE /* Main.storyboard */,
+				3FE8705B217FE48700AE63FE /* LaunchScreen.storyboard */,
+				3FC5F8C8217FEEDB005CC1B2 /* Login.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3FC5F8C6217FEC1A005CC1B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F42429E2196701200F61B7E /* PostActionCell.swift */,
+				3F22EA5A21966C21003994A2 /* PostHeaderCell.swift */,
+				3F20BFB62190C942007CAADA /* PostImageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3FC5F8C7217FEC44005CC1B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3FE52B46218B94FA00767866 /* Constants.swift */,
+				3FC5F8BD217FEA72005CC1B2 /* GoogleService-Info.plist */,
+				3FE8705E217FE48700AE63FE /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		3FE87046217FE48400AE63FE = {
 			isa = PBXGroup;
 			children = (
 				3FE87051217FE48500AE63FE /* Fakestagram */,
 				3FE87050217FE48500AE63FE /* Products */,
+				0ED13F1B5F1B43EA13C3040C /* Pods */,
+				105F61886F476CA2A3A2939C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +199,15 @@
 			isa = PBXGroup;
 			children = (
 				3FE87052217FE48500AE63FE /* AppDelegate.swift */,
-				3FE87054217FE48500AE63FE /* ViewController.swift */,
-				3FE87056217FE48500AE63FE /* Main.storyboard */,
+				3FC5F8BF217FEB76005CC1B2 /* Controllers */,
+				3FC5F8C0217FEBA0005CC1B2 /* Extensions */,
+				3FC5F8C1217FEBA8005CC1B2 /* Helpers */,
+				3FC5F8C2217FEBB8005CC1B2 /* Models */,
+				3FC5F8C3217FEBC4005CC1B2 /* Services */,
+				3FC5F8C4217FEBFE005CC1B2 /* Storyboards */,
 				3FE87059217FE48700AE63FE /* Assets.xcassets */,
-				3FE8705B217FE48700AE63FE /* LaunchScreen.storyboard */,
-				3FE8705E217FE48700AE63FE /* Info.plist */,
+				3FC5F8C7217FEC44005CC1B2 /* Supporting Files */,
+				3FC5F8C6217FEC1A005CC1B2 /* Views */,
 			);
 			path = Fakestagram;
 			sourceTree = "<group>";
@@ -71,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FE87061217FE48700AE63FE /* Build configuration list for PBXNativeTarget "Fakestagram" */;
 			buildPhases = (
+				A2E95248D1A98C2E25EE7334 /* [CP] Check Pods Manifest.lock */,
 				3FE8704B217FE48400AE63FE /* Sources */,
 				3FE8704C217FE48400AE63FE /* Frameworks */,
 				3FE8704D217FE48400AE63FE /* Resources */,
+				342E1A82C9C314E7EEDEE19D /* [CP] Embed Pods Frameworks */,
+				D919D1B3F614464CEF41B34C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,7 +251,7 @@
 				};
 			};
 			buildConfigurationList = 3FE8704A217FE48400AE63FE /* Build configuration list for PBXProject "Fakestagram" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -123,20 +274,117 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FE8705D217FE48700AE63FE /* LaunchScreen.storyboard in Resources */,
+				3FC5F8BE217FEA72005CC1B2 /* GoogleService-Info.plist in Resources */,
 				3FE8705A217FE48700AE63FE /* Assets.xcassets in Resources */,
+				3FE52B5F218BF95800767866 /* Home.storyboard in Resources */,
+				3FC5F8C9217FEEDB005CC1B2 /* Login.storyboard in Resources */,
 				3FE87058217FE48500AE63FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		342E1A82C9C314E7EEDEE19D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fakestagram/Pods-Fakestagram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fakestagram/Pods-Fakestagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E95248D1A98C2E25EE7334 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fakestagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D919D1B3F614464CEF41B34C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Fakestagram/Pods-Fakestagram-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Fakestagram/Pods-Fakestagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FE8704B217FE48400AE63FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE87055217FE48500AE63FE /* ViewController.swift in Sources */,
+				3FA089A021826C6700D7815A /* User.swift in Sources */,
+				3FA0899E2181631800D7815A /* LoginViewController.swift in Sources */,
+				3FE52B4F218BA96100767866 /* MainTabBarController.swift in Sources */,
+				3FA089A42185341200D7815A /* UserService.swift in Sources */,
+				3FE52B4B218BA31500767866 /* HomeViewController.swift in Sources */,
+				3F42429F2196701200F61B7E /* PostActionCell.swift in Sources */,
+				3FE52B59218BEE1D00767866 /* Post.swift in Sources */,
+				3F20BFB72190C942007CAADA /* PostImageCell.swift in Sources */,
+				3FE52B5B218BF1B900767866 /* UIImage+Size.swift in Sources */,
+				3FE52B51218BACF400767866 /* FGPhotoHelper.swift in Sources */,
+				3FE52B49218B95E200767866 /* Storyboard+Utility.swift in Sources */,
+				3FE52B4D218BA33200767866 /* FindFriendsViewController.swift in Sources */,
+				3FE52B47218B94FA00767866 /* Constants.swift in Sources */,
+				3FE52B5D218BF33200767866 /* StorageReference+Post.swift in Sources */,
+				3FE52B55218BC69E00767866 /* PostService.swift in Sources */,
+				3FA089A2218276F400D7815A /* CreateUsernameViewController.swift in Sources */,
 				3FE87053217FE48500AE63FE /* AppDelegate.swift in Sources */,
+				3F22EA5B21966C21003994A2 /* PostHeaderCell.swift in Sources */,
+				3FE52B57218BC76E00767866 /* StorageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,11 +528,13 @@
 		};
 		3FE87062217FE48700AE63FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31270FF1FAE326571C712E69 /* Pods-Fakestagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDTN4YEY2W;
-				INFOPLIST_FILE = Fakestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Fakestagram/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +548,13 @@
 		};
 		3FE87063217FE48700AE63FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF245D4EC38E05E0D9415B5 /* Pods-Fakestagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UDTN4YEY2W;
-				INFOPLIST_FILE = Fakestagram/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Fakestagram/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

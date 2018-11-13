@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>share photos</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>share photos</string>
+	<key>NSCameraUsageDescription</key>
+	<string>share photos</string>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>436756697988-fg4g2okaotlq0trap2h9sd8qk72tgem9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.436756697988-fg4g2okaotlq0trap2h9sd8qk72tgem9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDwVW_pDyjMWd_VTTLUw43g8820KHL4Axc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>436756697988</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.JeremyRobinson.Fakestagram</string>
+	<key>PROJECT_ID</key>
+	<string>makestagram33</string>
+	<key>STORAGE_BUCKET</key>
+	<string>makestagram33.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:436756697988:ios:0c2a1a775541c431</string>
+	<key>DATABASE_URL</key>
+	<string>https://makestagram33.firebaseio.com</string>
+</dict>
+</plist>
