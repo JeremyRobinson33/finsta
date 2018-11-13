@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Fakestagram-->
+        <!--Finsta-->
         <scene sceneID="SIN-9O-bLy">
             <objects>
                 <viewController id="0ov-do-g5y" customClass="HomeViewController" customModule="Fakestagram" customModuleProvider="target" sceneMemberID="viewController">
@@ -158,7 +158,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bhE-BP-ey9"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Fakestagram" id="0Ov-HU-pca"/>
+                    <navigationItem key="navigationItem" title="Finsta" id="0Ov-HU-pca"/>
                     <connections>
                         <outlet property="newTableView" destination="qp1-A0-M4q" id="7NT-HT-pPd"/>
                     </connections>
